@@ -3,8 +3,8 @@ class While {
     int num = 100;
     while (num > 0) {
       System.out.println("Обратный отсчет с while: " + num );
-      num -= 10;
+      num -= 1;
     }
-    
+
   }
 }
