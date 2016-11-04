@@ -3,8 +3,8 @@ class DoWhile {
     int num = 100;
     do {
       System.out.print("Используем DoWhile: " + num + "\n");
-      num += 10;
-    } while (num<0);
+      num -= 10;
+    } while (num > 0);
 
   }
 
