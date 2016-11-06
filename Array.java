@@ -13,7 +13,7 @@ class Array {
     System.out.println("Размер целочисленного массива " + num.length);
     System.out.println( num[0]+"," +num[1] + "," + num[2] );
     System.out.println(str[0] + str[1] + str[2]);
-    System.out.println(num[2] + num[2]);
+    System.out.println(num[2] / num[2]);
 
     }
 }
