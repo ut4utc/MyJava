@@ -11,7 +11,7 @@ class Args {
 
     if (args[1].equals("+")) msg += (num1 + num2);
     else if (args[1].equals("-")) msg += (num1 - num2);
-    else if (args[1].equals("*")) msg += (num1 * num2);
+    else if (args[1].equals("x")) msg += (num1 * num2);
     else if (args[1].equals("/")) msg += (num1 / num2);
     else msg = "Неправильный оператор";
 
