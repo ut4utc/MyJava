@@ -5,7 +5,7 @@ class Args {
       return;
     }
     int num1 = Integer.parseInt(args[0]);
-    int num2 = Integer.parseInt(args[1]);
+    int num2 = Integer.parseInt(args[2]);
 
     String msg = args[0] + args[1] + args[2] + "=";
 
