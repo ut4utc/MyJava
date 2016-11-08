@@ -7,6 +7,13 @@ class Loops {
 
     }// end if
 
+    String[] htm = {"HTML","in","easy","steps"};
+    int j=0;
+    while (j < htm.length){
+      System.out.println("htm[" +j+ "] - | " + htm[j] );
+      j++;
+    }
+
   }
 
 }
