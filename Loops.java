@@ -14,6 +14,16 @@ class Loops {
       j++;
     }
 
+    String[] xml = { "XML", "in", "easy", "steps" } ;
+
+    int k=0;
+    if(xml.length>0) do
+    {
+      System.out.println( "\t\txml["+k+"] - | "+xml[k] ) ;
+      k++ ;
+    } while(k<xml.length);
+
+
   }
 
 }
