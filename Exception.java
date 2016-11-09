@@ -15,9 +15,9 @@ class Exception {
     }
     finally
     {
-      System.out.println( "Программа завершила работу.");
+      System.out.println( "Программа завершила работу.\n\n");
     }
 
-  }//main
+  } //main
 
 }
