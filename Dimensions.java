@@ -10,7 +10,7 @@ class Dimensions {
     for( int i=0; i<points.length; i++ ) {
       System.out.print( "\n" ) ;
 
-      for (int j=0; j<points.length; j++ ) {
+      for (int j=0; j<points[0].length; j++ ) {
         char mark = ( points[i][j] ) ? 'X' : '-' ;
           System.out.print( mark ) ;
       }
